@@ -17,7 +17,7 @@
                     <a class="navbar-brand" href="#">ALTA</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php">Home <span class='glyphicon glyphicon-home'></span></a></li>
                     <li class="active"><a href="#">Alta</a></li>
                     <li><a href="listado.php">Listado</a></li>
                     </ul>
@@ -29,11 +29,11 @@
 
 				<div class="form-group">
 					<label for="valor_char">Nombre</label>
-					<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Introduzca valor 'Char'" required >
+					<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre" required >
 						<label for="valor_char">Apellido</label>
-					<input type="text" class="form-control" id="apellido" name="apellido" placeholder="Introduzca valor 'Char'" required >
+					<input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingrese apellido" required >
 						<label for="valor_char">Dni</label>
-					<input type="text" class="form-control" id="dni" name="dni" placeholder="Introduzca valor 'Char'" required >
+					<input type="text" class="form-control" id="dni" name="dni" placeholder="Ingrese DNI" required >
 					
 				<!--	<label for="valor_date">Valor Fecha</label>
 					<input type="date" class="form-control" id="valor_date" name="valor_date" placeholder="Introduzca valor 'Date'" required>

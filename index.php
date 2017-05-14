@@ -17,7 +17,7 @@
                     <a class="navbar-brand" href="#">ABM con ApiRest</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Home <span class='glyphicon glyphicon-home'></span></a></li>
                     <li><a href="alta.php">Alta</a></li>
                     <li><a href="listado.php" >Listado</a></li>
                 </ul>

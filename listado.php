@@ -23,7 +23,7 @@
                     <a class="navbar-brand" href="#">Listado</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php">Home <span class='glyphicon glyphicon-home'></span></a></li>
                     <li><a href="alta.php">Alta</a></li>
                     <li class="active"><a href="listado.php">Listado</a></li>
                     </ul>
@@ -50,8 +50,8 @@
                                 <input type="text" class="form-control" id="apellido" name="apellido" >
                                 <label for="dni">dni</label>
                                 <input type="text" class="form-control" id="dni" name="dni" >
-                              <!--  <label for="foto">foto</label>
-                                <input type="text" class="form-control" id="foto" name="foto" > -->
+                                <label for="foto">foto</label>
+                                <input type="text" class="form-control" id="foto" name="foto" >
                               <!--  <label for="valor_date">Valor Fecha</label> -->
                              <!--   <input type="date" class="form-control" id="valor_date" name="valor_date" > -->
                             <!--    <label for="valor_int">Valor Entero</label> -->
